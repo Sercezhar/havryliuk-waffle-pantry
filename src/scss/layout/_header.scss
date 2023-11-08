@@ -2,17 +2,19 @@
   flex-shrink: 0;
   background-color: #fff;
 
-  &__logo {
+  &__container {
     position: relative;
-    width: fit-content;
-    color: #fff;
-    z-index: 5;
+  }
 
-    @media (max-width: $mobileMedium) {
-      & img {
-        height: 30px;
-      }
-    }
+  &__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 23px;
+    padding-inline: 9px;
+    padding-bottom: 11px;
+    background-color: #fff;
+    z-index: 5;
   }
 
   &__burger {
@@ -118,7 +120,7 @@
 
 // navigation
 .menu {
-  justify-self: center;
+  margin-left: 150px;
 
   @media (max-width: $mobileMedium) {
     position: fixed;
