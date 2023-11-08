@@ -1,11 +1,9 @@
 export function swiperHero() {
-  const swiper = new Swiper('.swiper', {
-    // Optional parameters
+  const swiper = new Swiper('.swiper-hero', {
     loop: true,
 
-    // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.hero-swiper-pagination',
       clickable: true,
     },
   });

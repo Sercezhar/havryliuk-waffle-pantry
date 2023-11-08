@@ -231,6 +231,10 @@
 
     &--cart {
       margin-right: 34px;
+
+      & svg {
+        color: #7e7e7e;
+      }
     }
   }
 }
