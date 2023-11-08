@@ -1,0 +1,27 @@
+// adaptive
+$minWidth: 320;
+$maxWidth: 1920;
+$maxWidthContent: 1330;
+$containerPadding: 15;
+$maxWidthContainer: $maxWidthContent + ($containerPadding * 2);
+
+// breakpoints
+$pc: em($maxWidthContainer);
+$tablet: em(991.98);
+$mobileMedium: em(767.98);
+$mobileSmall: em(479.98);
+
+// transitions
+$transitionBase: cubic-bezier(0.4, 0, 0.2, 1);
+
+// fonts
+$fontSizeMain: 16px;
+$lineHeightMain: normal;
+$fontFamilyMain: 'Open Sans', sans-serif;
+
+:root {
+  // colors
+  --color-primary: #003566;
+  --color-secondary: #8cffda;
+  --color-text-main: #000;
+}
