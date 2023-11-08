@@ -1,5 +1,17 @@
 {% extends "layouts/default.twig" %}
 
+{% block stylesheets %}
+	<link
+  	rel="stylesheet"
+  	href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
+{% endblock %}
+
 {% block content %}
-	<div class="page__container"></div>
+	{% include './includes/hero.twig' %}
+{% endblock %}
+
+
+{% block scripts %}
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 {% endblock %}
