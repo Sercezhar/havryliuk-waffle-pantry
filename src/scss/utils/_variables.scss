@@ -1,7 +1,7 @@
 // adaptive
 $minWidth: 320;
 $maxWidth: 1920;
-$maxWidthContent: 1330;
+$maxWidthContent: 1680;
 $containerPadding: 15;
 $maxWidthContainer: $maxWidthContent + ($containerPadding * 2);
 
@@ -16,12 +16,11 @@ $transitionBase: cubic-bezier(0.4, 0, 0.2, 1);
 
 // fonts
 $fontSizeMain: 16px;
-$lineHeightMain: normal;
+$lineHeightMain: 1.5;
 $fontFamilyMain: 'Open Sans', sans-serif;
 
 :root {
   // colors
-  --color-primary: #003566;
-  --color-secondary: #8cffda;
+  --color-primary: #f4c22f;
   --color-text-main: #000;
 }
