@@ -32,5 +32,10 @@
       "image": "./images/products/prod-4.jpg",
       "sale": "- 35%"
     }
+  ],
+  "recipes": [
+    "./images/recipes/rec-1.jpg",
+    "./images/recipes/rec-2.jpg",
+    "./images/recipes/rec-3.jpg"
   ]
 }
